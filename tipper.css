@@ -1,11 +1,7 @@
 .tipper {
     position: relative;
-    /* background-image:url('../images/info-tipper-spot.svg');
-    background-repeat:no-repeat;
-    background-size: contain; */
     width: 18px;
     height: 18px;
-    /* background-position: 50% 50%; */
     display: inline-block;
     margin:0px 0px 0px 4px;
     cursor: pointer;
