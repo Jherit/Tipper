@@ -1,0 +1,58 @@
+.tipper {
+    position: relative;
+    /* background-image:url('../images/info-tipper-spot.svg');
+    background-repeat:no-repeat;
+    background-size: contain; */
+    width: 18px;
+    height: 18px;
+    /* background-position: 50% 50%; */
+    display: inline-block;
+    margin:0px 0px 0px 4px;
+    cursor: pointer;
+}
+
+.tipsyOut {
+    border-radius:6px;
+    padding:3px 8px 5px;
+    position:absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 260px;
+    background-color: #4f145b;
+    color:#fff;
+   z-index: 3005;
+}
+
+.tipsyOut .tipsyIn {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe', 'Segoe UI', 'Droid Sans', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:#fff !important;
+    font-weight:normal;
+    font-size:0.85rem;
+    line-height: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .tipper {
+        position: relative;
+        width: 90%;
+        float:left;
+        height: 18px;
+        display: inline-block;
+        margin:0px 0px 0px 0px;
+    }
+
+    .sdCalc.inpage .tipper {
+        width: 100%;
+    }
+
+    .tipper img {
+        float:right;
+    }
+    
+    .tipsyOut {
+        bottom: 20px;
+        left: 20px;
+        width: 260px;
+        }
+
+}
