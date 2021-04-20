@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipper - tool tips</title>
     <link rel="stylesheet" href="tipper.css" />
+    
+    <style>
+        *{font-family:sans-serif;}
+    </style>
 </head>
 <body>
-    <h1>Tipper - real simple tool tips</h1>
-    <p>This text needs a tool tip  <i
+    <h1>Tipper - A real simple tool-tips UI thing</h1>
+    <p>This text needs a tool tip - click for a tip<i
         class="tipper"
         data-tippertext="This is the text that is displayed as a tool tip."
         ><img
@@ -19,7 +23,7 @@
           height="18px"
           loading="lazy"
       /></i></p>
-      <p>This text also needs a tool tip  <i
+      <p>This text also needs a tool tip - no tips on :hover.<i
         class="tipper"
         data-tippertext="This is some more text that is displayed as a tool tip."
         ><img
